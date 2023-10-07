@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE stazioni [
+<!ELEMENT stazioni (stazione+)>
+<!ELEMENT stazione (comune, provincia, regione, nome)>
+<!ATTLIST stazione id CDATA #REQUIRED>
+<!ELEMENT comune (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT regione (#PCDATA)>
+<!ELEMENT nome (#PCDATA)>
+]>
+<stazioni>
+    <stazione id="190701">
+        <comune>CASELLE TORINESE</comune>
+        <provincia>CITTA' METROPOLITANA DI TORINO</provincia>
+        <regione>PIEMONTE</regione>
+        <nome>CASELLE TORINESE</nome>
+    </stazione>
+
+    <stazione id="190702">
+        <comune>ACCIANO</comune>
+        <provincia>L'AQUILA</provincia>
+        <regione>ABRUZZO</regione>
+        <nome>BEFFI</nome>
+    </stazione>
+
+    <stazione id="190703">
+        <comune>ADELFIA</comune>
+        <provincia>CITTA' METROPOLITANA DI BARI</provincia>
+        <regione>PUGLIA</regione>
+        <nome>ADELFIA</nome>
+    </stazione>
+
+    <stazione id="190704">
+        <comune>ALBA</comune>
+        <provincia>CUNEO</provincia>
+        <regione>PIEMONTE</regione>
+        <nome>MUSSOTTO</nome>
+    </stazione>
+
+</stazioni>
